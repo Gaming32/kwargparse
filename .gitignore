@@ -1,2 +1,6 @@
 .vscode
 notes.txt
+setup.cmd
+build
+.eggs
+kwargparse.egg-info

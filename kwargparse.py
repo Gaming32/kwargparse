@@ -91,3 +91,13 @@ class KeywordArgumentParser:
     def _parse_as_arg(self, kwargs):
         name, kwargs = _Argument.__call__(self, kwargs)
         return name, self.parse_kwargs(kwargs)
+
+#region Metadata
+__version__ = '1.0.0'
+__author__ = 'Gaming32'
+__all__ = ['KwargParseError', 'ArgumentError', 'ArgumentTypeError', 'ArgumentRequiredError',
+           'AnyType',
+           'Action',
+           'KeywordArgumentParser',
+           'Namespace']
+#endregion
